@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CustomColor</key>
+	<string>#273FAB</string>
+	<key>Title</key>
+	<string>JNUC Demo</string>
+	<key>DisableConfiguratorMode</key>
+	<false/>
+	<key>DisablePrivilegedHelperTool</key>
+	<false/>
+	<key>ErrorMessage</key>
+	<string>Please contact the Help Desk</string>
+	<key>FooterText</key>
+	<string>Powered by your IT department with ❤️</string>
+	<key>Logo</key>
+	<string>/Library/Application Support/JNUC/Icons/JNUC-icon.png</string>
+	<key>NotificationIcon</key>
+	<string>/Library/Application Support/JNUC/Icons/JNUC-icon.png</string>
+	<key>OpenAtLogin</key>
+	<false/>
+	<key>PasswordExpiryLimit</key>
+	<integer>10</integer>
+	<key>PasswordLabel</key>
+	<string>Company Password</string>
+	<key>PasswordType</key>
+	<string>JamfConnect</string>
+	<key>Rows</key>
+	<array>
+		<dict>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Type</key>
+					<string>MacOSVersion</string>
+				</dict>
+				<dict>
+					<key>Type</key>
+					<string>Uptime</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Type</key>
+					<string>Password</string>
+				</dict>
+				<dict>
+					<key>Type</key>
+					<string>Storage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>ExtensionID</key>
+					<string>corpnetwork</string>
+					<key>OnAppearAction</key>
+					<string>/Library/Application Support/JNUC/Scripts/SupportApp-CorpNetwork-OnAppear.sh</string>
+					<key>Symbol</key>
+					<string>network.badge.shield.half.filled</string>
+					<key>Title</key>
+					<string>Corp Network</string>
+					<key>Type</key>
+					<string>Extension</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>/Library/Application Support/JNUC/Scripts/SupportApp-Registration-Click.sh</string>
+					<key>ActionType</key>
+					<string>PrivilegedScript</string>
+					<key>ExtensionID</key>
+					<string>registration</string>
+					<key>OnAppearAction</key>
+					<string>/Library/Application Support/JNUC/Scripts/SupportApp-Registration-OnAppear.sh</string>
+					<key>Symbol</key>
+					<string>checkmark.seal.fill</string>
+					<key>Title</key>
+					<string>Registration</string>
+					<key>Type</key>
+					<string>Extension</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>/Library/Application Support/JNUC/Scripts/SupportApp-Checkin-Click.sh</string>
+					<key>ActionType</key>
+					<string>PrivilegedScript</string>
+					<key>ExtensionID</key>
+					<string>checkin</string>
+					<key>OnAppearAction</key>
+					<string>/Library/Application Support/JNUC/Scripts/SupportApp-Checkin-OnAppear.sh</string>
+					<key>Symbol</key>
+					<string>waveform.path.ecg</string>
+					<key>Title</key>
+					<string>Check-in</string>
+					<key>Type</key>
+					<string>Extension</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>/Library/Application Support/JNUC/Scripts/SupportApp-Compliance-Click.sh</string>
+					<key>ActionType</key>
+					<string>PrivilegedScript</string>
+					<key>ExtensionID</key>
+					<string>compliance</string>
+					<key>OnAppearAction</key>
+					<string>/Library/Application Support/JNUC/Scripts/SupportApp-Compliance-OnAppear.sh</string>
+					<key>Symbol</key>
+					<string>checkmark.seal.fill</string>
+					<key>Title</key>
+					<string>Compliance</string>
+					<key>Type</key>
+					<string>Extension</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>/Library/Application Support/JNUC/Scripts/SupportApp-Inventory-Click.sh</string>
+					<key>ActionType</key>
+					<string>PrivilegedScript</string>
+					<key>ExtensionID</key>
+					<string>inventory</string>
+					<key>OnAppearAction</key>
+					<string>/Library/Application Support/JNUC/Scripts/SupportApp-Inventory-OnAppear.sh</string>
+					<key>Symbol</key>
+					<string>shippingbox</string>
+					<key>Title</key>
+					<string>Inventory</string>
+					<key>Type</key>
+					<string>Extension</string>
+				</dict>			
+				<dict>
+					<key>Action</key>
+					<string>/Library/Application Support/JNUC/Scripts/SupportApp-DisplayComputerInfo-Click.sh</string>
+					<key>ActionType</key>
+					<string>PrivilegedScript</string>
+					<key>ExtensionID</key>
+					<string>computerinfo</string>
+					<key>OnAppearAction</key>
+					<string>/Library/Application Support/JNUC/Scripts/SupportApp-DisplayComputerInfo-OnAppear.sh</string>
+					<key>Symbol</key>
+					<string>info.circle</string>
+					<key>Title</key>
+					<string>Computer Info</string>
+					<key>Subtitle</key>
+					<string>Run Report</string>
+					<key>Type</key>
+					<string>Extension</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>https://helpdesk.company.com/</string>
+					<key>ActionType</key>
+					<string>URL</string>
+					<key>Subtitle</key>
+					<string></string>
+					<key>Symbol</key>
+					<string>ticket</string>
+					<key>Title</key>
+					<string>Help Desk Ticket</string>
+					<key>Type</key>
+					<string>ButtonMedium</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>com.jamf.selfserviceplus</string>
+					<key>ActionType</key>
+					<string>App</string>
+					<key>Subtitle</key>
+					<string></string>
+					<key>Symbol</key>
+					<string>circle.grid.3x3.circle.fill</string>
+					<key>Title</key>
+					<string>Self Service+</string>
+					<key>Type</key>
+					<string>ButtonMedium</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>https://anotherurlhere.com</string>
+					<key>ActionType</key>
+					<string>URL</string>
+					<key>Subtitle</key>
+					<string></string>
+					<key>Symbol</key>
+					<string>book.circle</string>
+					<key>Title</key>
+					<string>Resources</string>
+					<key>Type</key>
+					<string>ButtonMedium</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>ShowWelcomeScreen</key>
+	<false/>
+	<key>StatusBarIcon</key>
+	<string>/Library/Application Support/JNUC/Icons/JNUC-bug-white.png</string>
+	<key>StatusBarIconAllowsColor</key>
+	<false/>
+	<key>StatusBarIconNotifierEnabled</key>
+	<true/>
+	<key>StorageLimit</key>
+	<integer>90</integer>
+	<key>UptimeDaysLimit</key>
+	<integer>15</integer>
+</dict>
+</plist>
