@@ -8,7 +8,7 @@
 
 Recording available on YouTube in late October 2026
 
-This repo includes the Registration and Compliance custom Support App extensions for the Jamf/Entra Device Compliance
+This repo includes the [Registration and Compliance custom Support App extensions] (https://github.com/jaedwards24/JNUC2026/tree/main/Extension%20Scripts) for the Jamf/Entra Device Compliance
 
 ### Resources and References
 * [Support App Repository] (https://github.com/root3nl/supportapp)
